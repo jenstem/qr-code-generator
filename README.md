@@ -1,1 +1,1 @@
-# project-one
+# QR Code Generator
