@@ -1,12 +1,10 @@
 from tkinter import *
-# import py qr code
 import pyqrcode
-# import pillow
 from PIL import Image, ImageTk
 
-# create a window
+
 root = Tk()
 
 
-
+canvas = Canvas(root, width=400, height=600)
 root.mainloop()
