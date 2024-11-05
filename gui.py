@@ -8,6 +8,13 @@ root = Tk()
 
 
 def generate():
+    """
+    Generates a QR code from user input and displays it in a tkinter window.
+
+    This function retrieves the link name and link from entry fields,
+    creates a QR code image, saves it as a PNG file, and displays the image
+    on a tkinter canvas.
+    """
     link_name = name_entry.get()
     link = link_entry.get()
     file_name = link_name + ".png"
